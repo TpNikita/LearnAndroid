@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1" />
+
+    <CheckBox
+        android:id="@+id/answer1Cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer_1" />
+
+    <CheckBox
+        android:id="@+id/answer2Cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2" />
+
+    <CheckBox
+        android:id="@+id/answer3Cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer_3" />
+
+    <CheckBox
+        android:id="@+id/answer4Cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer_4" />
+
+    <Button
+        android:id="@+id/answerBtn"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/answer"
+      />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+</LinearLayout>
