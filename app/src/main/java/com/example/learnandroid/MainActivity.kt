@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        println("!!! create new branch")
 
         val a = findViewById<EditText>(R.id.loginEt)
         val rememberCb = findViewById<CheckBox>(R.id.rememberPasswordCb)
