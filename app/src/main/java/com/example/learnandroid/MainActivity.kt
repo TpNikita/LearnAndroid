@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
 
         println("!!! create new branch")
 
+
+
+        println()
+
+
+
         val a = findViewById<EditText>(R.id.loginEt)
         val rememberCb = findViewById<CheckBox>(R.id.rememberPasswordCb)
         val actionBtn = findViewById<Button>(R.id.actionBtn)
